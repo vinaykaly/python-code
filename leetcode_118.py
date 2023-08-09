@@ -13,7 +13,7 @@ else:
        x = [1,1] #insert the sum value
        y = 1
 
-       for i in range(len(res[len(res)-1]-1):
+       for i in range(len(res[len(res)-1]-1)):
           x.insert(y,z[i]+z[i+1])
           y = y+1
        res.append(x); z = x
